@@ -202,12 +202,13 @@ def start(update: Update, context: CallbackContext):
                             url="https://t.me/danuma01"),
                          InlineKeyboardButton(
                             text=" 👨‍💻 Developer 👩‍💻",
-                             url="https://lasiya.ml"),
-                          InlinekeyboardButton(
+                             url="https://lasiya.ml")
+                       ],
+                       [   InlinekeyboardButton(
                              text=" ✈️Updates Channel✈️",
                              url="https://t.me/Dbotai")
-                       
-                     ],
+                       ],
+
                      [
                         InlineKeyboardButton(
                              text=" 🛶 Report bugs🛶 ",
