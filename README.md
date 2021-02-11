@@ -11,6 +11,6 @@ The Support group can be reached out to at [⍟︎ Λi_bot  Updates⍟︎](https
 News channel as at [⍟︎ Λi_bot  Updates⍟︎](https://t.me/D_bot_Ai) 
 
 
-  [![Deploy](https://img.icons8.com/nolan/64/love-book.png)](https://heroku.com/deploy?template=https://github.com/SLdevilX/ruki.git)
+  [![Deploy](https://img.icons8.com/nolan/64/love-book.png)](https://heroku.com/deploy?template=https://github.com/SLdevilX/Will.git)
 🔥😎🔥  
 ![Λibot ](https://telegra.ph/file/6cda8f5be37488c03b828.jpg)]
