@@ -1,4 +1,4 @@
-importlib
+import importlib
 import time
 import re
 from sys import argv
@@ -59,18 +59,11 @@ vailable commands /help.
 """
 
 HELP_STRINGS = """
-Hey there! My name is *{}*.
-I help admins to manage their groups! Have a look at the following for an idea of some of \
-the things I can help you with.
-
-*Main* commands available:
- • /help: PM's you this message.
- • /help <module name>: PM's you info about that module.
- • /donate: information on how to donate!
- • /settings:
-   in PM: will send you your settings for all supported modules.
- • in a group: will redirect you to pm, with all that chat's settings.
-
+Need some help About *{}*?
+*Main Commands :* [🤖](https://telegra.ph/file/2f6d0529836dab676c965.jpg)
+✓ /start : 𝑆𝑡𝑎𝑟𝑡 𝑚𝑒 | 𝑐ℎ𝑒𝑘 𝑎𝑙𝑖𝑣𝑒
+✓ /help : 𝐺𝑒𝑡 𝑡ℎ𝑖𝑠 𝑚𝑒𝑛𝑢
+✓ /donate : 𝐻𝑒𝑙𝑝 𝑡𝑜 𝐷𝑎𝑛𝑢𝑚𝑎 𝑝𝑟𝑜𝑗𝑒𝑐𝑡 
 
 {}
 And the following:
@@ -80,10 +73,7 @@ And the following:
 
 SAITAMA_IMG = "https://telegra.ph/file/51638ee67668c158a3313.jpg"
 
-DONATE_STRING = """Hey, glad to hear you want to donate!
-Senku is hosted on one of Heroku's Servers and need to \
-buy a server RDP i need your help
-There are two ways of supporting him; [EZcash 0740856411](t.me/Danuma_admin_bot), or [Contact](t.me/Danuma_admin_bot)."""
+DONATE_STRING = """𝖨𝖿 𝗒𝗈𝗎 𝗀𝗅𝖺𝖽 𝖺𝖻𝗈𝗎𝗍 𝗈𝗎𝗋 𝗏𝗂𝗌𝗈𝗇 [𝙲𝚑𝚎𝚔 𝚑𝚎𝚊𝚛𝚎](https://lasiya.ml) 𝖸𝗈𝗎 𝖼𝖺𝗇 𝗁𝖾𝗅𝗉 𝗌𝗈𝗆𝖾 𝗍𝗂𝗇𝗒 𝖽𝗈𝗇𝖺𝗍𝗂𝗈𝗇. 𝗍𝗁𝖾𝗇 𝗐𝖾 𝖼𝖺𝗇 𝗂𝗆𝗉𝗋𝗈𝗏𝖾 𝗈𝗎𝗋 𝗉𝗋𝗈𝗃𝖾𝖼𝗍 supporting him; [Contact him](t.me/Danuma_admin_bot), or [Contact](t.me/Danuma_admin_bot)."""
 
 IMPORTED = {}
 MIGRATEABLE = []
