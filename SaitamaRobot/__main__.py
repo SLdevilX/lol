@@ -1,4 +1,4 @@
-import importlib
+importlib
 import time
 import re
 from sys import argv
@@ -213,7 +213,7 @@ def start(update: Update, context: CallbackContext):
                          InlineKeyboardButton(
                             text=" 👨‍💻 Developer 👩‍💻",
                              url="https://lasiya.ml"),
-                          inlinekeyboardbutton(
+                          inlinekeyboardButton(
                              text=" ✈️Updates Channel✈️",
                              url="https://t.me/Dbotai")
                        
